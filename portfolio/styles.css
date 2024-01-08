@@ -1,0 +1,60 @@
+/* green = padding */
+/* orange = margin */
+
+/* classes */
+.sameline {
+    display:inline-block;
+}
+
+.side-margins {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.border-delete {
+    border: 0;
+}
+
+/* navigation */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.email {
+    padding-right: 0px !important;
+}
+
+/* landing */
+.landingtext {
+    height: 100vh;
+    padding-top: 30%;
+}
+
+/* projects */
+.card {
+    margin-bottom: 5%;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+}
+
+#footer1 {
+    position: absolute;
+    left: 10%;
+}
+
+#footer3 {
+    position: absolute;
+    right: 10%;
+}
