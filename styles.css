@@ -7,8 +7,25 @@
 }
 
 .side-margins {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.side-paddings {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+    .side-margins {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .side-paddings {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
 .right {
