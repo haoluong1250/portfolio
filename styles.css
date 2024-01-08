@@ -16,6 +16,10 @@
     padding-right: 25%;
 }
 
+.left-padding-delete {
+    padding-left: 0;
+}
+
 @media screen and (max-width: 1200px) {
     .side-margins {
         margin-left: 10%;
