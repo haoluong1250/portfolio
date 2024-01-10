@@ -71,7 +71,7 @@
                   </div>
               </div>
             </div>
-            <button>view application</button>
+            <button><a href="https://htluongucsd.github.io/barnvagn/">view application</a></button>
             <br><br>
 
             <!-- OVERVIEW -->
@@ -159,9 +159,11 @@
             <img style="width: 100%; max-width: 800px;" class="border-radius-10" src="images/barnvagn/lofi.png">
             <br><br>
 
-
+            <!-- PROTOTYPING -->
             <h3>Prototyping</h3>
             <hr>
+            
+            <!-- HI-FI -->
             <h5>HiFi App</h5>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -193,25 +195,221 @@
                     </div>
                 </div>
             </div>
+            <button><a href="https://www.figma.com/proto/z7GxFbClR646HL673rtlIA/barnvagn?type=design&t=EaCulSQScI8D9ei1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=84%3A46&node-id=84-46 " target="_blank">view prototype</a></button>
+            <br><br>
+
+            <!-- COLOR PALETTE -->
             <h5>Color Palette</h5>
             <img src="images/barnvagn/color.png" style="width: 100%; max-width: 700px;">
+            <br><br>
+            
+            <!-- DESIGN DECISIONS -->
             <h5>Design Decisions</h5>
             <h6>Color: </h6>
-            <p>I chose the colors dark purple and beige because they strongly contrast each other. Additionally, purple is a gender neutral color, applicable to both baby boys and girls.</p>
+            <ul>
+                <li>I chose the colors dark purple and beige because they strongly contrast each other. Additionally, purple is a gender neutral color, applicable to both baby boys and girls.</li>
+            </ul>
             <h6>Repetition:</h6>
-            <p>All text colors are white, and the card layout are consistent with one another.</p>
+            <ul>
+                <li>All text colors are white, and the card layout are consistent with one another.</li>
+            </ul>
             <h6>Proximity:</h6>
-            <p>Individual controls of the strollers are grouped by their own respective cards.</p>
+            <ul>
+                <li>Individual controls of the strollers are grouped by their own respective cards.</li>
+            </ul>
             <h6>Alignment:</h6>
-            <p>Contents that can be appropriately aligned to the left are left aligned, to emphasize the line of alignment which enhances readability.</p>
+            <ul>
+                <li>Contents that can be appropriately aligned to the left are left aligned, to emphasize the line of alignment which enhances readability.</li>
+            </ul>
             <h6>Overlay for disconnect action</h6>
-            <p>Helps minimize disconnect error by requesting for confirmation.</p>
+            <ul>
+                <li>Helps minimize disconnect error by requesting for confirmation.</li>
+            </ul>
             <h6>Simplified home page with all controls located in one place:</h6>
-            <p>Improves the accessibility of the stroller controls.</p>
+            <ul>
+                <li>Improves the accessibility of the stroller controls.</li>
+            </ul>
             <h6>Labels on control cards:</h6>
-            <p>Signify function of controls</p>
+            <ul>
+                <li>Signify function of controls.</li>
+            </ul>
             <h6>Use of world knowledge for lock:</h6>
-            <p>Lock color is red, unlock color is green. Helps the user easily identify the state of the lock.</p>
+            <ul>
+                <li>Lock color is red, unlock color is green. Helps the user easily identify the state of the lock.</li>
+            </ul>
+            <br><br>
+
+            <!-- INTERACTION ANALYSIS -->
+            <h5>Interaction Analysis</h5>
+            <h6>Disconnect Button</h6>
+            <ul>
+                <li>Purpose:
+                    <ul>
+                        <li>Bring the user to the scan QR code screen when they disconnect.</li>
+                    </ul>
+                </li>
+                <li>Affordance: 
+                    <ul>
+                        <li>Button affords stroller to be disconnected.</li>
+                    </ul>
+                </li>
+                <li>Labels: 
+                    <ul>
+                        <li>Disconnect label tells the user that clicking on it will disconnect the stroller.</li>
+                    </ul>
+                </li>
+                <li>Body language: 
+                    <ul>
+                        <li>When clicked, a pop-up will appear for the user to confirm the disconnection to ensure commitment and prevent error.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h6>Light Slider</h6>
+            <ul>
+                <li>Purpose:
+                    <ul>
+                        <li>Control brightness of stroller headlights.</li>
+                    </ul>
+                </li>
+                <li>Affordance: 
+                    <ul>
+                        <li>Affords light and visibility around stroller when it gets dark.</li>
+                    </ul>
+                </li>
+                <li>Labels: 
+                    <ul>
+                        <li>Flashlight icon lets the user know this slider controls a light source on the stroller.</li>
+                    </ul>
+                </li>
+                <li>Body language: 
+                    <ul>
+                        <li>Sliding will turn on lights which is immediate feedback.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h6>Lock Button</h6>
+            <ul>
+                <li>Purpose:
+                    <ul>
+                        <li>Lock and unlock the storage compartment in the stroller.</li>
+                    </ul>
+                </li>
+                <li>Affordance: 
+                    <ul>
+                        <li>Affords control of the safe mechanism on the stroller. Also affords safe storage on the stroller for the user to store their items in a theft-proof manner.</li>
+                    </ul>
+                </li>
+                <li>Labels: 
+                    <ul>
+                        <li>The lock incon signifies a lock and unlocking feature of the stroller.</li>
+                    </ul>
+                </li>
+                <li>Body language: 
+                    <ul>
+                        <li>The default position will be locked to ensure that thiefs do not breach the system if the user forgets to lock their safe.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h6>Pin Input Box</h6>
+            <ul>
+                <li>Purpose:
+                    <ul>
+                        <li>Allows the user to input the pin code on their stroller to manually connect their device to their stroller.
+                        </li>
+                    </ul>
+                </li>
+                <li>Affordance: 
+                    <ul>
+                        <li>The input text box affords number values to be inputted into the text box.</li>
+                    </ul>
+                </li>
+                <li>Labels: 
+                    <ul>
+                        <li>The input text box has “XXX-XXX-XXX” labelled which specifies the way the pin code should be formatted when it is inputted in.</li>
+                    </ul>
+                </li>
+                <li>Body language: 
+                    <ul>
+                        <li>The sizing of the text box is just the right size to indicate the length of characters to be inputted. The text box is not too large that it makes the user assume to input a lot of information, and not too short that it creates the assumption that the input length is short.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h6>Music Player Control</h6>
+            <ul>
+                <li>Purpose:
+                    <ul>
+                        <li>The play and pause button, the skip button, and the back button allow the user to control the music playing.</li>
+                    </ul>
+                </li>
+                <li>Affordance: 
+                    <ul>
+                        <li>The buttons afford pressing by the user to control the specific functions acted on the music playing.</li>
+                    </ul>
+                </li>
+                <li>Labels: 
+                    <ul>
+                        <li>The buttons are not labeled, but instead in the form of shapes. This is ideal because these controls are universally known and consistent in other music player platforms. Since it is best to avoid labels when possible, these buttons are ideal.</li>
+                    </ul>
+                </li>
+                <li>Body language: 
+                    <ul>
+                        <li>Because the music control buttons are easily discoverable as they are on the home page, not complex because there is only three buttons, and easily learnable since these buttons are universally known, the body language is not difficult at all to use.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- TESTING -->
+            <h3>Testing</h3>
+            <p>To test my prototype, I utilized usability testing by developing 5 tasks for the user to try and complete using the prototype. Afterwards, I will prompt the user a quick survey in order to gain more insight about their user experience. I critiqued my design based on Shneiderman's 8 Golden Rule.</p>
+
+            <h6>Tasks:</h6>
+            <ol>
+                <li>Find the instructions on how to connect a stroller</li>
+                <li>Connect to the stroller using the manual pin input method.</li>
+                <li>Turn on the headlights</li>
+                <li>Unlock the storage compartment</li>
+                <li>Disconnect the stroller</li>
+            </ol>
+            <h6>Survey</h6>
+            <p>Link: <a href="https://forms.gle/Chdi6rGk3Wp8bekf6" target="_blank">https://forms.gle/Chdi6rGk3Wp8bekf6</a></p>
+            <h6>Shneiderman's 8 Golden Rule:</h6>
+            <ul>
+                <li>Strive for consistency</li>
+                <li>Enable shortcuts</li>
+                <li>Offer informative feedback</li>
+                <li>Indicate closure</li>
+                <li>Prevent and recover from the error</li>
+                <li>Permit reversal of actions</li>
+                <li>Give user control</li>
+                <li>Reduce short-term memory load</li>
+            </ul>
+
+            <!-- CRITIQUES -->
+            <h5>Critiques</h5>
+            <ul>
+                <li>Standardize
+                    <ul>
+                        <li>Choose either all uppercase headers or lowercase headers</li>
+                        <li>Standardize buttons and links.</li>
+                    </ul>
+                </li>
+                <li>Add confirmations of actions for
+                    <ul>
+                        <li>Actions that connect and disconnect</li>
+                    </ul>
+                </li>
+                <li>Label
+                    <ul>
+                        <li>Label everything, including the widgets on the home page.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- FINAL WEB-BASED APPLICATION -->
+            <h3>Final Web-Based Application</h3>
+            <p>For this project, the requirement was to only create one page of the prototype. I chose the home page because it would have the most interactions.</p>
+            <button><a href="https://htluongucsd.github.io/barnvagn/">view application</a></button>
+
 
 
 
