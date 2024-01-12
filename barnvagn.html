@@ -9,12 +9,12 @@
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Montserrat:wght@300;500&family=Open+Sans:wght@300;400;500&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
     </head>
     <body>
       <section>
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid side-margins">
             <a class="navbar-brand" href="index.html">Hao Luong</a>
             <!-- hamburger button -->
@@ -44,10 +44,9 @@
       <!--section-->
       <section>
         <div class="side-margins">
-            <div>
-                <h1>barnvagn</h1>
-                <h6>A smart stroller</h6>
-            </div>
+            <h1 id="heading">barnvagn</h1>
+            <h3>A smart stroller</h3>
+            <br><br>
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-4 d-none d-sm-block">
                   <div class="card border-delete">
@@ -71,21 +70,27 @@
                   </div>
               </div>
             </div>
-            <button><a href="https://htluongucsd.github.io/barnvagn/">view application</a></button>
-            <br><br>
+
+            <br><br><br><br>
+
+            <button class="border-radius-10 border-delete"><a id="view_prototype" href="https://htluongucsd.github.io/barnvagn/" target="_blank">view application</a></button>
+
+            <br><br><br><br>
+            <br><br><br><br>
 
             <!-- OVERVIEW -->
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title">Overview</h3>
+                    <h2 class="card-title">Overview</h2>
                     <hr>
+                    <br>
                     <h6 class="card-subtitle mb-2 text-body-secondary">Challenge</h6>
                     <p class="card-text">
-                        <ul>
+                        <ul style="list-style: none;">
                             <li>Develop a web-based application that will help fulfill a user’s need</li>
                         </ul>
                     </p>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">My Contributions:</h6>
+                    <h6 class="card-subtitle mb-2 text-body">My Contributions:</h6>
                     <p class="card-text">
                         <ul>
                             <li>User Research</li>
@@ -97,33 +102,42 @@
                 </div>
             </div>
 
+            <br><br><br><br>
+
             <!-- DESIGN PROCESS -->
-            <h2>Design Process</h2>
+            <h1>Design Process</h1>
             <hr>
+            <br>
             <div class="sameline">
-                <button>Observation</button><i class="fa-solid fa-arrow-right"></i> 
-                <button>Addressing Needs</button><i class="fa-solid fa-arrow-right"></i>
-                <button>Sketches</button><i class="fa-solid fa-arrow-right"></i>
-                <button>Prototype</button><i class="fa-solid fa-arrow-right"></i>
-                <button>Testing</button>
+                <button id="process_button" class="border-radius-10 border-delete"><a id="process_text" href="">&nbspObservation&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp&nbsp 
+                <button id="process_button" class="border-radius-10 border-delete"><a id="process_text" href="">&nbspAddressing Needs&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp&nbsp
+                <button id="process_button" class="border-radius-10 border-delete"><a id="process_text" href="">&nbspSketches&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp&nbsp
+                <button id="process_button" class="border-radius-10 border-delete"><a id="process_text" href="">&nbspPrototype&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp&nbsp
+                <button id="process_button" class="border-radius-10 border-delete"><a id="process_text" href="">&nbspTesting&nbsp</a></button>
             </div>
-            <br><br>
+            
+            <br><br><br><br>
 
             <!-- OBSERVATION -->
             <h3>Observation</h3>
             <hr>
+            <br>
             <h6>Location:</h6>
-            <p> UTC Shopping Center</p>
+            <ul style="list-style: none;"><p>UTC Shopping Center</p></ul>
+            <br>
             <h6>Situation:</h6>
-            <p>Guardians push their stroller with their child inside or along side it, as they browse around in a shopping center together.</p>
+            <ul style="list-style: none;"><p>Guardians push their stroller with their child inside or along side it, as they browse around in a shopping center together.</p></ul>
+            <br>
 
             <!-- EXAMPLE OF OBSERVATIONS -->
-            <h5>Example Of Observations</h5>
+            <h6>Example Of Observations</h6>
             <ul>
                 <li><p>Both mother and child were pushing a stroller with the mother’s hand gripping the top of her child’s hand while the child was pushing the stroller, they were looking and moving their body towards the ice rink</p></li>
                 <li><p>Baby stroller were parked outside of children’s play area as the guardians supervise the child/children, while the stroller were left unmonitored.</p></li>
                 <li><p>Father tucks in sleeping child in baby stroller</p></li>
             </ul>
+            
+            <br><br>
             
             <!-- OBSERVED NEEDS -->
             <h5>Observed Needs</h5>
@@ -135,36 +149,47 @@
                 <li>Protect their luggage</li>
             </ul>
 
+            <br><br>
+
             <!-- SOLUTION TO NEEDS -->
-            <h5>Solutions To Needs</h5>
+            <h5>Top Solutions Brainstormed</h5>
             <ul>
                 <li>Live monitoring camera inside the stroller with infrared vision</li>
                 <li>Built-in bluetooth speakers inside stroller
                 </li>
                 <li>LEDs that project light around the stroller</li>
                 <li>Electronically lockable storage compartment under stroller</li>
-            </ul><br><br>
+            </ul>
+            
+            <br><br><br><br>
 
             <!-- SKETCHES -->
             <h3>Sketches</h3>
             <hr>
+            <br>
             <!-- STORYBOARDING -->
             <h5>Storyboarding</h5>
             <img style="width:100%; max-width: 1000px;" src="images/barnvagn/storyboard.png">
-            <br><br>
+            
+            <br><br><br><br>
+
             <h5>Sketches of Solution</h5>
             <img style="width:100%; max-width: 800px;" src="images/barnvagn/sketches.png">
-            <br><br>
-            <h5>Lo-Fi App</h5>
+            
+            <br><br><br><br>
+            
+            <h5>Lo-Fi Sketch</h5>
+            <br>
             <img style="width: 100%; max-width: 800px;" class="border-radius-10" src="images/barnvagn/lofi.png">
-            <br><br>
+            
+            <br><br><br><br><br><br>
 
             <!-- PROTOTYPING -->
             <h3>Prototyping</h3>
             <hr>
-            
+            <br>
             <!-- HI-FI -->
-            <h5>HiFi App</h5>
+            <h5>Hi-Fi Model</h5>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="card border-delete">
@@ -195,183 +220,225 @@
                     </div>
                 </div>
             </div>
-            <button><a href="https://www.figma.com/proto/z7GxFbClR646HL673rtlIA/barnvagn?type=design&t=EaCulSQScI8D9ei1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=84%3A46&node-id=84-46 " target="_blank">view prototype</a></button>
             <br><br>
+            <button class="border-radius-10 border-delete"><a id="view_prototype" href="https://www.figma.com/proto/z7GxFbClR646HL673rtlIA/barnvagn?type=design&t=EaCulSQScI8D9ei1-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=84%3A46&node-id=84-46 " target="_blank">view prototype</a></button>
+            
+            <br><br><br><br><br><br>
 
             <!-- COLOR PALETTE -->
             <h5>Color Palette</h5>
             <img src="images/barnvagn/color.png" style="width: 100%; max-width: 700px;">
-            <br><br>
+
+            <br><br><br><br>
             
             <!-- DESIGN DECISIONS -->
             <h5>Design Decisions</h5>
-            <h6>Color: </h6>
-            <ul>
+            <br>
+            <h6>Color:</h6>
+            <ul style="list-style: none;">
                 <li>I chose the colors dark purple and beige because they strongly contrast each other. Additionally, purple is a gender neutral color, applicable to both baby boys and girls.</li>
             </ul>
+            <br>
             <h6>Repetition:</h6>
-            <ul>
+            <ul style="list-style: none;">
                 <li>All text colors are white, and the card layout are consistent with one another.</li>
             </ul>
+            <br>
             <h6>Proximity:</h6>
-            <ul>
+            <ul style="list-style: none;">
                 <li>Individual controls of the strollers are grouped by their own respective cards.</li>
             </ul>
+            <br>
             <h6>Alignment:</h6>
-            <ul>
+            <ul style="list-style: none;">
                 <li>Contents that can be appropriately aligned to the left are left aligned, to emphasize the line of alignment which enhances readability.</li>
             </ul>
+            <br>
             <h6>Overlay for disconnect action</h6>
-            <ul>
+            <ul style="list-style: none;">
                 <li>Helps minimize disconnect error by requesting for confirmation.</li>
             </ul>
+            <br>
             <h6>Simplified home page with all controls located in one place:</h6>
-            <ul>
+            <ul style="list-style: none;">
                 <li>Improves the accessibility of the stroller controls.</li>
             </ul>
+            <br>
             <h6>Labels on control cards:</h6>
-            <ul>
+            <ul style="list-style: none;">
                 <li>Signify function of controls.</li>
             </ul>
+            <br>
             <h6>Use of world knowledge for lock:</h6>
-            <ul>
+            <ul style="list-style: none;">
                 <li>Lock color is red, unlock color is green. Helps the user easily identify the state of the lock.</li>
             </ul>
             <br><br>
 
             <!-- INTERACTION ANALYSIS -->
             <h5>Interaction Analysis</h5>
-            <h6>Disconnect Button</h6>
-            <ul>
-                <li>Purpose:
-                    <ul>
-                        <li>Bring the user to the scan QR code screen when they disconnect.</li>
-                    </ul>
-                </li>
-                <li>Affordance: 
-                    <ul>
-                        <li>Button affords stroller to be disconnected.</li>
-                    </ul>
-                </li>
-                <li>Labels: 
-                    <ul>
-                        <li>Disconnect label tells the user that clicking on it will disconnect the stroller.</li>
-                    </ul>
-                </li>
-                <li>Body language: 
-                    <ul>
-                        <li>When clicked, a pop-up will appear for the user to confirm the disconnection to ensure commitment and prevent error.</li>
-                    </ul>
-                </li>
-            </ul>
-            <h6>Light Slider</h6>
-            <ul>
-                <li>Purpose:
-                    <ul>
-                        <li>Control brightness of stroller headlights.</li>
-                    </ul>
-                </li>
-                <li>Affordance: 
-                    <ul>
-                        <li>Affords light and visibility around stroller when it gets dark.</li>
-                    </ul>
-                </li>
-                <li>Labels: 
-                    <ul>
-                        <li>Flashlight icon lets the user know this slider controls a light source on the stroller.</li>
-                    </ul>
-                </li>
-                <li>Body language: 
-                    <ul>
-                        <li>Sliding will turn on lights which is immediate feedback.</li>
-                    </ul>
-                </li>
-            </ul>
-            <h6>Lock Button</h6>
-            <ul>
-                <li>Purpose:
-                    <ul>
-                        <li>Lock and unlock the storage compartment in the stroller.</li>
-                    </ul>
-                </li>
-                <li>Affordance: 
-                    <ul>
-                        <li>Affords control of the safe mechanism on the stroller. Also affords safe storage on the stroller for the user to store their items in a theft-proof manner.</li>
-                    </ul>
-                </li>
-                <li>Labels: 
-                    <ul>
-                        <li>The lock incon signifies a lock and unlocking feature of the stroller.</li>
-                    </ul>
-                </li>
-                <li>Body language: 
-                    <ul>
-                        <li>The default position will be locked to ensure that thiefs do not breach the system if the user forgets to lock their safe.</li>
-                    </ul>
-                </li>
-            </ul>
-            <h6>Pin Input Box</h6>
-            <ul>
-                <li>Purpose:
-                    <ul>
-                        <li>Allows the user to input the pin code on their stroller to manually connect their device to their stroller.
-                        </li>
-                    </ul>
-                </li>
-                <li>Affordance: 
-                    <ul>
-                        <li>The input text box affords number values to be inputted into the text box.</li>
-                    </ul>
-                </li>
-                <li>Labels: 
-                    <ul>
-                        <li>The input text box has “XXX-XXX-XXX” labelled which specifies the way the pin code should be formatted when it is inputted in.</li>
-                    </ul>
-                </li>
-                <li>Body language: 
-                    <ul>
-                        <li>The sizing of the text box is just the right size to indicate the length of characters to be inputted. The text box is not too large that it makes the user assume to input a lot of information, and not too short that it creates the assumption that the input length is short.</li>
-                    </ul>
-                </li>
-            </ul>
-            <h6>Music Player Control</h6>
-            <ul>
-                <li>Purpose:
-                    <ul>
-                        <li>The play and pause button, the skip button, and the back button allow the user to control the music playing.</li>
-                    </ul>
-                </li>
-                <li>Affordance: 
-                    <ul>
-                        <li>The buttons afford pressing by the user to control the specific functions acted on the music playing.</li>
-                    </ul>
-                </li>
-                <li>Labels: 
-                    <ul>
-                        <li>The buttons are not labeled, but instead in the form of shapes. This is ideal because these controls are universally known and consistent in other music player platforms. Since it is best to avoid labels when possible, these buttons are ideal.</li>
-                    </ul>
-                </li>
-                <li>Body language: 
-                    <ul>
-                        <li>Because the music control buttons are easily discoverable as they are on the home page, not complex because there is only three buttons, and easily learnable since these buttons are universally known, the body language is not difficult at all to use.</li>
-                    </ul>
-                </li>
-            </ul>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>Music Player Control</h6>
+                            <br>
+                            <div class="center">
+                                <img src="images/barnvagn/music.png" style="width: 300px; border-radius: 20px;">
+                            </div>
+                            <br>
+                                <p>Purpose:
+                                    <ul>
+                                        <li>The play and pause button, the skip button, and the back button allow the user to control the music playing.</li>
+                                    </ul></p>
+                                <p>Affordance: 
+                                    <ul>
+                                        <li>The buttons afford pressing by the user to control the specific functions acted on the music playing.</li>
+                                    </ul></p>
+                                <p>Labels: 
+                                    <ul>
+                                        <li>The buttons are not labeled, but instead in the form of shapes. This is ideal because these controls are universally known and consistent in other music player platforms. Since it is best to avoid labels when possible, these buttons are ideal.</li></p>
+                                    </ul>
+                                <p>Body language: 
+                                    <ul>
+                                        <li>Because the music control buttons are easily discoverable as they are on the home page, not complex because there is only three buttons, and easily learnable since these buttons are universally known, the body language is not difficult at all to use.</li>
+                                    </ul></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>Pin Input Box</h6>
+                            <br>
+                            <div class="center">
+                                <img src="images/barnvagn/hifi5.png" style="width: 300px; border-radius: 20px; position: relative; align-self: center;">
+                            </div>
+                            <br>
+                                <p>Purpose:
+                                    <ul>
+                                        <li>Allows the user to input the pin code on their stroller to manually connect their device to their stroller.
+                                        </li>
+                                    </ul></p>
+                                <p>Affordance: 
+                                    <ul>
+                                        <li>The input text box affords number values to be inputted into the text box.</li>
+                                    </ul></p>
+                                <p>Labels: 
+                                    <ul>
+                                        <li>The input text box has “XXX-XXX-XXX” labelled which specifies the way the pin code should be formatted when it is inputted in.</li>
+                                    </ul></p>
+                                <p>Body language: 
+                                    <ul>
+                                        <li>The sizing of the text box is just the right size to indicate the length of characters to be inputted. The text box is not too large that it makes the user assume to input a lot of information, and not too short that it creates the assumption that the input length is short.</li>
+                                    </ul></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>Light Slider</h6>
+                            <br>
+                            <div class="center">
+                                <img src="images/barnvagn/light.png" style="width: 300px; border-radius: 20px;">
+                            </div>
+                            <br>
+                                <p>Purpose:
+                                    <ul>
+                                        <li>Control brightness of stroller headlights.</li>
+                                    </ul></p>
+                                <p>Affordance: 
+                                    <ul>
+                                        <li>Affords light and visibility around stroller when it gets dark.</li>
+                                    </ul></p>
+                                <p>Labels: 
+                                    <ul>
+                                        <li>Flashlight icon lets the user know this slider controls a light source on the stroller.</li>
+                                    </ul></p>
+                                <p>Body language: 
+                                    <ul>
+                                        <li>Sliding will turn on lights which is immediate feedback.</li>
+                                    </ul>   </p>                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>Lock Button</h6>
+                            <br>
+                            <div class="center">
+                                <img src="images/barnvagn/lock.png" style="width: 300px; border-radius: 20px;">
+                            </div>
+                            <br>
+                            <p>Purpose:</p>
+                            <ul>
+                                <li><p>Lock and unlock the storage compartment in the stroller.</p></li>
+                            </ul>
+                            <p>Affordance:</p>
+                            <ul>
+                                <li><p>Affords control of the safe mechanism on the stroller. Also affords safe storage on the stroller for the user to store their items in a theft-proof manner.</p></li>
+                            </ul>
+                            <p>Labels:</p>
+                            <ul>
+                                <li><p>The lock incon signifies a lock and unlocking feature of the stroller.</p></li>
+                            </ul>
+                            <p>Body language: </p>
+                                    <ul>
+                                        <li>The default position will be locked to ensure that thiefs do not breach the system if the user forgets to lock their safe.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>Disconnect Button</h6>
+                            <br>
+                            <div class="center">
+                                <img src="images/barnvagn/disconnect.png" style="width: 300px; border-radius: 20px;">
+                            </div>
+                            <br>
+                            <p>Purpose:
+                                    <ul>
+                                        <li>Bring the user to the scan QR code screen when they disconnect.</li>
+                                    </ul>
+                                </p>
+                                <p>Affordance: 
+                                    <ul>
+                                        <li>Button affords stroller to be disconnected.</li>
+                                    </ul>
+                                </p>
+                                <p>Labels: 
+                                    <ul>
+                                        <li>Disconnect label tells the user that clicking on it will disconnect the stroller.</li>
+                                    </ul>
+                                </p>
+                                <p>Body language: 
+                                    <ul>
+                                        <li>When clicked, a pop-up will appear for the user to confirm the disconnection to ensure commitment and prevent error.</li>
+                                    </ul>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <br><br><br><br>
+            
+    
 
             <!-- TESTING -->
             <h3>Testing</h3>
+            <hr>
+            <br>
             <p>To test my prototype, I utilized usability testing by developing 5 tasks for the user to try and complete using the prototype. Afterwards, I will prompt the user a quick survey in order to gain more insight about their user experience. I critiqued my design based on Shneiderman's 8 Golden Rule.</p>
+            <br><br>
 
-            <h6>Tasks:</h6>
-            <ol>
-                <li>Find the instructions on how to connect a stroller</li>
-                <li>Connect to the stroller using the manual pin input method.</li>
-                <li>Turn on the headlights</li>
-                <li>Unlock the storage compartment</li>
-                <li>Disconnect the stroller</li>
-            </ol>
-            <h6>Survey</h6>
-            <p>Link: <a href="https://forms.gle/Chdi6rGk3Wp8bekf6" target="_blank">https://forms.gle/Chdi6rGk3Wp8bekf6</a></p>
             <h6>Shneiderman's 8 Golden Rule:</h6>
             <ul>
                 <li>Strive for consistency</li>
@@ -384,6 +451,22 @@
                 <li>Reduce short-term memory load</li>
             </ul>
 
+            <br><br>
+
+            <h5>Tasks</h5>
+            <ol>
+                <li>Find the instructions on how to connect a stroller</li>
+                <li>Connect to the stroller using the manual pin input method.</li>
+                <li>Turn on the headlights</li>
+                <li>Unlock the storage compartment</li>
+                <li>Disconnect the stroller</li>
+            </ol>
+            <br><br>
+            <h5>Survey</h5>
+            <p>Link: <a href="https://forms.gle/Chdi6rGk3Wp8bekf6" target="_blank">https://forms.gle/Chdi6rGk3Wp8bekf6</a></p>
+            
+            <br><br>
+
             <!-- CRITIQUES -->
             <h5>Critiques</h5>
             <ul>
@@ -392,12 +475,14 @@
                         <li>Choose either all uppercase headers or lowercase headers</li>
                         <li>Standardize buttons and links.</li>
                     </ul>
+                <br>
                 </li>
                 <li>Add confirmations of actions for
                     <ul>
                         <li>Actions that connect and disconnect</li>
                     </ul>
                 </li>
+                <br>
                 <li>Label
                     <ul>
                         <li>Label everything, including the widgets on the home page.</li>
@@ -405,12 +490,21 @@
                 </li>
             </ul>
 
+            <br><br><br><br>
+
+
             <!-- FINAL WEB-BASED APPLICATION -->
             <h3>Final Web-Based Application</h3>
+            <hr>
+            <br>
             <p>For this project, the requirement was to only create one page of the prototype. I chose the home page because it would have the most interactions.</p>
-            <button><a href="https://htluongucsd.github.io/barnvagn/">view application</a></button>
+            
+            <br><br>
 
+            <button class="border-radius-10 border-delete"><a id="view_prototype" href="https://htluongucsd.github.io/barnvagn/" target="_blank">view application</a></button>
 
+            <br><br><br><br>
+            <br><br><br><br>
 
 
 
