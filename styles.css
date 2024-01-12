@@ -1,7 +1,72 @@
 /* green = padding */
 /* orange = margin */
 
-/* classes */
+/* fonts:
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+ */
+ 
+ /* ------------------------------------------- */
+
+/* fonts */
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem !important;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 3.1rem;
+}
+
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+h5 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+h6 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+li {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
+
+/* ------------------------------------------- */
+
+/* classes & id*/
 .sameline {
     display:inline-block;
 }
@@ -48,7 +113,40 @@
     border-radius: 10px;
 }
 
-/* navigation */
+#heading {
+    font-size: 10rem !important;
+    padding-top: 100px;
+}
+
+#view_prototype {
+    font-size: 1.5rem;
+    text-decoration: none !important;
+}
+
+#process_button {
+    font-size: 2.0rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+#process_text {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 0;
+    border-width: 3px;
+    color: black;
+    opacity: 100;
+}
+
+.shadow {
+    box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226) !important;
+}
+
+/* ------------------------------------------- */
+
+/* navbar */
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -58,20 +156,60 @@
     padding-right: 0px !important;
 }
 
+.navbar {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: white !important;
+    box-shadow: 8px 8px 30px rgb(226, 226, 226);
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+/* ------------------------------------------- */
+
 /* landing */
 .landingtext {
     height: 100vh;
     padding-top: 30%;
+    font-size: 2.5rem;
+    font-weight: 300;
 }
+
+@media screen and (max-width: 900px) {
+    .landingtext {
+        font-size: 1.75rem;
+    }
+}
+
+/* ------------------------------------------- */
 
 /* projects */
 .card {
     margin-bottom: 5%;
 }
 
+#project_card {
+    border-width: 0px;
+    border-color: black;
+    box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226);
+}
+
+#project_name {
+    font-size: 3rem !important;
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------------------------------------- */
+
 /* footer */
 #footer {
     text-align: center;
+    font-size: 1.5rem !important;
 }
 
 #footer1 {
@@ -82,4 +220,10 @@
 #footer3 {
     position: absolute;
     right: 10%;
+}
+
+@media screen and (max-width: 550px) {
+    #footer {
+        font-size: .8rem;
+    }
 }
