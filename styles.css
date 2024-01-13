@@ -119,18 +119,29 @@ a {
 }
 
 #view_prototype {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-decoration: none !important;
+    color: white;
+}
+
+button {
+    background-color: #0d6efd;
+}
+
+button:hover {
+    background-color: #0b58cd;
 }
 
 #process_button {
     font-size: 2.0rem;
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 #process_text {
     text-decoration: none;
+    color: white;
 }
 
 hr {
@@ -141,7 +152,11 @@ hr {
 }
 
 .shadow {
-    box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226) !important;
+    box-shadow: 4px 4px 15px rgb(226, 226, 226), -4px -4px 15px rgb(226, 226, 226) !important;
+}
+
+.white {
+    background-color: white;
 }
 
 /* ------------------------------------------- */
@@ -169,6 +184,14 @@ hr {
     font-size: 2.5rem;
 }
 
+.navbar-brand:hover {
+    color: red;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
 /* ------------------------------------------- */
 
 /* landing */
@@ -194,8 +217,13 @@ hr {
 
 #project_card {
     border-width: 0px;
-    border-color: black;
     box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226);
+}
+
+#project_card:hover {
+    border-width: 0px;
+    box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226);
+    width: 102%;
 }
 
 #project_name {
@@ -223,7 +251,47 @@ hr {
 }
 
 @media screen and (max-width: 550px) {
-    #footer {
-        font-size: .8rem;
+    p{
+        font-size: 1rem;
+    }
+
+    #heading {
+        font-size: 3.5rem !important;
+    }
+
+    #project_name {
+        font-size: 2rem !important;
+    }
+
+    #view_prototype {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 3rem !important;
+    }
+
+    h2{
+        font-size: 2.7rem !important;
+    }
+
+    h3{
+        font-size: 2.3rem !important;
+    }
+
+    h4{
+        font-size: 2.0rem;
+    }
+
+    h5{
+        font-size: 1.7rem;
+    }
+
+    h6{
+        font-size: 1.2rem;
+    }
+
+    button{
+        font-size: 1.2rem !important;
     }
 }
