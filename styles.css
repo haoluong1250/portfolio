@@ -13,50 +13,50 @@ font-family: 'Playfair Display', serif;
 /* fonts */
 h1 {
     font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 3.5rem !important;
+    font-weight: 900;
+    font-size: 2.375rem !important;
 }
 
 h2 {
     font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 3.1rem;
+    font-weight: 900;
+    font-size: 2.125rem;
 }
 
 h3 {
     font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 2.8rem;
+    font-weight: 900;
+    font-size: 1.75rem;
 }
 
 h4 {
     font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 2.3rem;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 h5 {
     font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 1.9rem;
+    font-weight: 900;
+    font-size: 1.375rem;
 }
 
 h6 {
     font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 900;
+    font-size: 1.25rem;
 }
 
 p {
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 li {
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 a {
@@ -68,7 +68,7 @@ a {
 
 /* classes & id*/
 .sameline {
-    display:inline-block;
+    display:inline;
 }
 
 .side-margins {
@@ -133,7 +133,7 @@ button:hover {
 }
 
 #process_button {
-    font-size: 2.0rem;
+    font-size: 1.125rem;
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
     margin-bottom: 20px;
@@ -178,6 +178,20 @@ hr {
     background-color: #0b58cd;
 }
 
+.carousel-control-prev:hover{
+    background-color: rgba(184, 184, 184, 0.6);
+}
+
+.carousel-control-next:hover{
+    background-color: rgba(184, 184, 184, 0.6);
+}
+
+.border-width-10{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
 /* ------------------------------------------- */
 
 /* navbar */
@@ -205,6 +219,10 @@ hr {
 
 .navbar-brand:hover {
     color: red;
+}
+
+.nav-link{
+    font-size: 1.5rem;
 }
 
 .nav-link:hover {
@@ -269,7 +287,8 @@ hr {
     right: 10%;
 }
 
-@media screen and (max-width: 550px) {
+/* MOBILE */
+@media (min-width: 360px) and (max-width: 601px) { 
     p{
         font-size: 1rem;
     }
@@ -312,5 +331,10 @@ hr {
 
     button{
         font-size: 1.2rem !important;
-    }
+    } 
+}
+
+/* TABLET */
+@media (min-width: 601px) and (max-width: 1280px){
+
 }
