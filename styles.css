@@ -5,7 +5,8 @@
 font-family: 'Kanit', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
-font-family: 'Playfair Display', serif;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Quicksand', sans-serif;
  */
  
  /* ------------------------------------------- */
@@ -14,37 +15,37 @@ font-family: 'Playfair Display', serif;
 h1 {
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
-    font-size: 2.375rem !important;
+    font-size: 5rem !important;
 }
 
 h2 {
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
-    font-size: 2.125rem;
+    font-size: 4.25rem;
 }
 
 h3 {
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 3.5rem;
 }
 
 h4 {
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2.75rem;
 }
 
 h5 {
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
-    font-size: 1.375rem;
+    font-size: 2.0rem;
 }
 
 h6 {
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 p {
@@ -62,6 +63,7 @@ li {
 a {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
+    font-size: 1.25rem;
 }
 
 /* ------------------------------------------- */
@@ -85,6 +87,10 @@ a {
     padding-left: 0;
 }
 
+.margin-delete{
+    margin: 0px !important;
+}
+
 @media screen and (max-width: 1200px) {
     .side-margins {
         margin-left: 10%;
@@ -103,6 +109,9 @@ a {
 
 .center {
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .border-delete {
@@ -113,15 +122,27 @@ a {
     border-radius: 10px;
 }
 
+.border-radius-40 {
+    border-radius: 40px;
+}
+
 #heading {
     font-size: 10rem !important;
     padding-top: 100px;
 }
 
+#hero-heading{
+    font-size: 10rem !important;
+}
+
 #view_prototype {
     font-size: 1.8rem;
-    text-decoration: none !important;
-    color: white;
+    color: #0d6efd;
+}
+
+#view_prototype:hover {
+    font-size: 1.8rem;
+    color: #0b58cd;
 }
 
 button {
@@ -137,11 +158,17 @@ button:hover {
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 #process_text {
     text-decoration: none;
-    color: white;
+    color: rgb(141, 141, 141);
+}
+
+#process_text:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 hr {
@@ -186,11 +213,87 @@ hr {
     background-color: rgba(184, 184, 184, 0.6);
 }
 
+.border-width-5{
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+}
+
 .border-width-10{
     border-color: black;
     border-style: solid;
     border-width: 5px;
 }
+
+.anchored::before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: 150px;
+    margin-top: -100px;
+}
+
+#hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+#design-process{
+    z-index: 5;
+    background-color: white;
+    padding: 1.5%;
+    float: none;
+    position: fixed;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 8px 8px 30px rgb(226, 226, 226);
+}
+
+.pad-bottom{
+    padding-bottom: 150px;
+}
+
+.pad-top{
+    padding-top: 150px;
+}
+
+.full-page{
+    height: 100vh;
+}
+
+.data{
+    font-size: 5rem !important;
+}
+
+.white-text{
+    color: white;
+}
+
+.carousel-control-next {
+    color: #0d6efd;
+    opacity: 100;
+}
+
+.carousel-control-next:hover {
+    color: #0b58cd;
+    background-color: white;
+} 
+
+.carousel-control-next:focus {
+    color: #0d6efd;
+     opacity: 100;
+} 
+
+.carousel-control-next:active {
+    color: #0b58cd;
+     opacity: 100;
+} 
+
 
 /* ------------------------------------------- */
 
@@ -210,6 +313,13 @@ hr {
     font-size: 1.5rem;
     background-color: white !important;
     box-shadow: 8px 8px 30px rgb(226, 226, 226);
+    top: 3%;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .navbar-brand {
@@ -223,6 +333,8 @@ hr {
 
 .nav-link{
     font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(141, 141, 141);
 }
 
 .nav-link:hover {
@@ -234,9 +346,14 @@ hr {
 /* landing */
 .landingtext {
     height: 100vh;
-    padding-top: 30%;
+    padding-top: 40%;
     font-size: 2.5rem;
     font-weight: 300;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 900px) {
@@ -288,53 +405,77 @@ hr {
 }
 
 /* MOBILE */
-@media (min-width: 360px) and (max-width: 601px) { 
+@media (min-width: 360px) and (max-width: 768px) { 
     p{
-        font-size: 1rem;
+        font-size: 1.0rem;
+    }
+    
+    a{
+        font-size: 1.0rem;
+    }
+
+    li{
+        font-size: 1.0rem;
     }
 
     #heading {
-        font-size: 3.5rem !important;
+        font-size: 3.3rem !important;
+    }
+
+    #hero-heading {
+        font-size: 3.3rem !important;
     }
 
     #project_name {
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
     }
 
     #view_prototype {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
 
     h1 {
-        font-size: 3rem !important;
+        font-size: 2.8rem !important;
     }
 
     h2{
-        font-size: 2.7rem !important;
+        font-size: 2.2rem !important;
     }
 
     h3{
-        font-size: 2.3rem !important;
+        font-size: 1.9rem !important;
     }
 
     h4{
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     }
 
     h5{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     h6{
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
 
     button{
-        font-size: 1.2rem !important;
+        font-size: 1.0rem !important;
     } 
+
+    #phone{
+        margin-bottom: 50px;
+    }
+
+    #design-process{
+        display: none;
+    }
+
+    .data{
+        font-size: 3rem !important;
+    }
 }
 
 /* TABLET */
-@media (min-width: 601px) and (max-width: 1280px){
+@media (min-width: 768px) and (max-width: 1200px){
 
 }
