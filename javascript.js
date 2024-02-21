@@ -1,5 +1,5 @@
 const div = document.querySelector(".landingtext");
-const text = "Welcome, I am Hao Luong. I am a Product Design and UX Design student at UCSD. I aspire to create empathetic designs that are appealing, inclusive, and intuitive to use.";
+const text = "Welcome, I am Hao Luong, a Product Design student at UCSD.";
 
 function textTypingEffect(element, text, i = 0) {
     if (i === 0) {
@@ -11,7 +11,10 @@ function textTypingEffect(element, text, i = 0) {
         return;
     }
 
-    setTimeout(() => textTypingEffect(element, text, i+1), 30);
+    setTimeout(() => textTypingEffect(element, text, i+1), 50);
 }   
 
 textTypingEffect(div, text);
+
+// --------------------------------------------------------- //
+
