@@ -15,9 +15,9 @@
         <div id="top"></div>
       <section>
         <!--navbar-->
-        <nav class="navbar fixed-top navbar-expand-lg border-radius-10">
+        <nav class="navbar fixed-top navbar-expand-lg border-radius-10" id="navigation-bar">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Hao Luong</a>
+            <a class="navbar-brand" href="index.html"><img src="images/project photos/Blue Brand.png" id="brand-logo"></a>
             <!-- hamburger button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -45,191 +45,369 @@
         <!--DESIGN PROCESS-->
         <div id="design-process" class="border-radius-10">
             <div class="sameline">
-                <button id="process_button" class="border-radius-10 border-delete margin-delete"><a id="process_text" href="#observation">&nbspObservation&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp
-                <button id="process_button" class="border-radius-10 border-delete margin-delete"><a id="process_text" href="#sketch">&nbspSketches&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp
+                <button id="process_button" class="border-radius-10 border-delete margin-delete"><a id="process_text" href="#need-finding">&nbspNeed Finding&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp
+                <button id="process_button" class="border-radius-10 border-delete margin-delete"><a id="process_text" href="#sketch">&nbspStoryboarding&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp
                 <button id="process_button" class="border-radius-10 border-delete margin-delete"><a id="process_text" href="#prototype">&nbspPrototype&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp
+                <button id="process_button" class="border-radius-10 border-delete margin-delete"><a id="process_text" href="#web-dev">&nbspWeb Development&nbsp</a></button>&nbsp&nbsp<i class="fa-solid fa-arrow-right"></i>&nbsp
                 <button id="process_button" class="border-radius-10 border-delete margin-delete"><a id="process_text" href="#test">&nbspTesting&nbsp</a></button>
             </div>
         </div>
 
         <!-- HERO SHOT -->
-      <div id="hero" style="background-color: aqua;">
+      <div id="hero" style="background-color: #8675EF;">
         <h1 id="hero-heading" style="color: white;">barnvargn</h1>
       </div>
 
+      <!-- SPACERS -->
+      <div class="pad-top" style="background-color: rgb(240, 240, 240);"></div>
+      <!-- SPACERS -->  
+
       <!--section-->
       <section>
-        <div class="side-margins"> 
-            <!--OVERVIEW-->
-            <div class="row">
-                <div class="col-lg-8">
-                    <h3>A smart stroller for safer travels.</h3>
-                </div>
-                <div class="col-lg-8">
-                <p>The stroller design has been around for decades with little innovations. They are low-tech, unsecure, and not suitable for usage in the dark. By integrating mobile connectivity, Barnvagn empowers parents to remotely control and customize a range of features, ensuring convenience and peace of mind like never before.</p>
-                <a id="view_prototype" href="https://htluongucsd.github.io/barnvagn/" target="_blank">view website&nbsp<i class="fa-solid fa-square-arrow-up-right"></i></a>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3">
-                <h6 class="card-subtitle mb-2 text-body">Skills Applied:</h6>
-                    <ul>
-                        <li>User Research</li>
-                        <li>Product Development</li>
-                        <li>HTML/CSS & JavaScript</li>
-                        <li>Bootstrap 5.0 Framework</li>
-                        <li>Figma</li>
-                    </ul>
+        <div style="background-color: rgb(240, 240, 240);">
+            <div class="side-margins"> 
+                <!--OVERVIEW-->
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h3>A smart stroller for safer travels.</h3>
+                    </div>
+                    <div class="col-lg-8">
+                    <p>The stroller design has been around for decades with little innovations. They are low-tech, unsecure, and not suitable for usage in the dark. By integrating mobile connectivity, Barnvagn empowers parents to remotely control and customize a range of features, ensuring convenience and peace of mind like never before.</p>
+                    <a id="view_prototype" href="https://htluongucsd.github.io/barnvagn/" target="_blank">view website&nbsp<i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-3">
+                    <h6 class="card-subtitle mb-2 text-body">Skills Applied:</h6>
+                        <ul>
+                            <li>User Research</li>
+                            <li>Product Development</li>
+                            <li>HTML/CSS & JavaScript</li>
+                            <li>Bootstrap 5.0 Framework</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>  
 
-        <div class="pad-top" style=""></div>
+        <div class="pad-top" style="background-color: rgb(240, 240, 240);"></div>
         <div class="pad-bottom" style=""></div>
 
-        <div style="padding-bottom: 10px;">
+        <div>
             <div class="side-margins">
                 <!-- OBSERVATION -->
-                <h3 id="observation">Observation</h3>
-                <hr>
-                <br>
-                <h6>Location:</h6>
-                <p>UTC Shopping Center</p>
-                <h6>Situation:</h6>
-                <p>Guardians push their stroller with their child inside or along side it, as they browse around in a shopping center together.</p>
+                <h2 id="need-finding" class="center anchored">Need Finding</h2>
 
-                <!-- EXAMPLE OF OBSERVATIONS -->
-                <h6>Example Of Observations</h6>
-                <ul>
-                    <li>Both mother and child were pushing a stroller with the mother’s hand gripping the top of her child’s hand while the child was pushing the stroller, they were looking and moving their body towards the ice rink</li>
-                    <li>Baby stroller were parked outside of children’s play area as the guardians supervise the child/children, while the stroller were left unmonitored</li>
-                    <li>Father tucks in sleeping child in baby stroller</li>
-                </ul>
+                <!-- SMALL SPACER -->
+                <div class="small-pad"></div>
+                <!-- SMALL SPACER -->
 
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h6>Observation</h6>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>I conducted the observations for user need finding at UTC Shopping Center, where parents often push their babies in stroller as they browse around the mall. Notes were written down, photos were taken, and sketches were drawn.</p>
+                    </div>
+                </div>
                 <br>
+                <div id="observation-carousel" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#observation-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#observation-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#observation-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#observation-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card border-delete">
+                            <img src="images/barnvagn/observation1.jpg" class="center" style="width: 70%;" alt="...">
+                            <h6 class="center">1. Mother distracting a crying baby</h6>
+                            <br>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card border-delete">
+                            <img src="images/barnvagn/observation2.jpg" class="center" style="width: 70%;" alt="...">
+                            <h6 class="center">2. Father checking in on baby</h6>
+                            <br>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card border-delete">
+                            <img src="images/barnvagn/observation3.jpg" class="center" style="width: 70%;" alt="...">
+                            <h6 class="center">3. Leaving luggage unattended</h6>
+                            <br>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card border-delete">
+                            <img src="images/barnvagn/observation4.jpg" class="center" style="width: 70%;" alt="...">
+                            <h6 class="center">4. Hanging bags on the handlebar</h6>
+                            <br>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#observation-carousel" data-bs-slide="prev">
+                        <h1><i class="fa-solid fa-circle-chevron-left next-back-button"></i></h1>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#observation-carousel" data-bs-slide="next">
+                        <h1><i class="fa-solid fa-circle-chevron-right next-back-button"></i></h1>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                <!-- SPACERS -->
+                <div class="pad-top"></div>
+                <!-- SPACERS -->
                 
                 <!-- OBSERVED NEEDS -->
-                <h4>Observed Needs</h4>
-                <p>User needs to ...</p>
-                <ul>
-                    <li>Check in on their child</li>
-                    <li>Entertain/distract their child</li>
-                    <li>See when it gets dark</li>
-                    <li>Protect their luggage</li>
-                </ul>
-
-                <br>
-
-                <!-- SOLUTION TO NEEDS -->
-                <h4>Top Solutions Brainstormed</h4>
                 <div class="row">
-                    <div class="col-3">
-                        <img src="images/barnvagn/sketch1.jpg" width="100%">
-                        <h6 class="center">Live baby camera</h6>
+                    <div class="col-lg-4">
+                        <h6>Observed Needs</h6>
                     </div>
-                    <div class="col-3">
-                        <img src="images/barnvagn/sketch2.jpg" width="100%">
-                        <h6 class="center">Bluetooth Speakers</h6>
-                    </div>
-                    <div class="col-3">
-                        <img src="images/barnvagn/sketch3.jpg" width="100%">
-                        <h6 class="center">LED headlights</h6>
-                    </div>
-                    <div class="col-3">
-                        <img src="images/barnvagn/sketch4.jpg" width="100%">
-                        <h6 class="center">Lockable Safe</h6>
+                    <div class="col-lg-8">
+                        <p>User needs to ...</p>
+                        <ul>
+                            <li>Entertain/distract their child</li>
+                            <li>Check in on their child</li>
+                            <li>Carry and protect their luggage</li>
+                            <li>See when it gets dark</li>
+                        </ul>
                     </div>
                 </div>
+
+                <!-- SPACERS -->
+                <div class="pad-top"></div>
+                <!-- SPACERS -->
+            </div>    
+
+            <div style="background-color: #8675EF;">
+                <!-- SPACERS -->
+                <div class="pad-top"></div>
+                <!-- SPACERS -->
+                <div class="side-margins white-text">
+                    <!-- SOLUTION TO NEEDS -->
+                    <h6>Top Solutions Brainstormed</h6>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="images/barnvagn/sketch1.jpg" width="100%" class="border-width-5 border-radius-40 white-border">
+                            <br><br>
+                            <p class="center">Live baby camera</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/barnvagn/sketch2.jpg" width="100%" class="border-width-5 border-radius-40 white-border">
+                            <br><br>
+                            <p class="center">Bluetooth Speakers</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/barnvagn/sketch3.jpg" width="100%" class="border-width-5 border-radius-40 white-border">
+                            <br><br>
+                            <p class="center">LED headlights</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/barnvagn/sketch4.jpg" width="100%" class="border-width-5 border-radius-40 white-border">
+                            <br><br>
+                            <p class="center">Lockable Safe</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- SPACERS -->
+                <div class="pad-top"></div>
+                <!-- SPACERS -->
             </div>
+            
         </div>
 
-        <div class="pad-top"></div>
-        <div class="pad-bottom"></div>
+        <div class="pad-top" style="background-color: black;"></div>
             
-        <div>
-            <div class="side-margins">
-                <!-- SKETCHES -->
-                <h3 id="sketch">Sketches</h3>
-                <hr>
-                <!-- STORYBOARDING -->
-                <h4>Storyboarding</h4>
-                <img class="center" style="width:100%; max-width: 1000px;" src="images/barnvagn/storyboard.png">
-                
-                <br><br><br><br>
+        <div style="background-color: black;">
+            <h2 id="sketch" class="center white-text anchored">Storyboarding</h2>
 
-            </div>
+                <!-- SPACERS -->
+                <div class="small-pad"></div>
+                <!-- SPACERS -->
+                <div class="side-margins"> 
+                    <!-- STORYBOARDING -->
+                <div id="storyboarding-carousel" class="carousel carousel-dark slide border-radius-40" style="background-color: white;">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#storyboarding-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#storyboarding-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#storyboarding-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#storyboarding-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card border-delete border-radius-40">
+                            <img src="images/barnvagn/storyboard1.jpg" class="center" style="width: 70%; padding-top: 50px; padding-bottom: 50px;" alt="...">
+                            <h6 class="center">1</h6>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card border-delete border-radius-40">
+                            <img src="images/barnvagn/storyboard2.jpg" class="center" style="width: 70%; padding-top: 50px; padding-bottom: 50px;" alt="...">
+                            <h6 class="center">2</h6>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card border-delete border-radius-40">
+                            <img src="images/barnvagn/storyboard3.jpg" class="center" style="width: 70%; padding-top: 50px; padding-bottom: 50px;" alt="...">
+                            <h6 class="center">3</h6>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card border-delete border-radius-40">
+                            <img src="images/barnvagn/storyboard4.jpg" class="center" style="width: 70%; padding-top: 50px; padding-bottom: 50px;" alt="...">
+                            <h6 class="center">4</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#storyboarding-carousel" data-bs-slide="prev">
+                        <h1><i class="fa-solid fa-circle-chevron-left next-back-button"></i></h1>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#storyboarding-carousel" data-bs-slide="next">
+                        <h1><i class="fa-solid fa-circle-chevron-right next-back-button"></i></h1>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                
         </div>
         
-        <div class="pad-top" style=""></div>
-        <div class="pad-bottom"></div>
+        <div class="pad-top" style="background-color: black;"></div>
+        <div class="pad-bottom" style="background-color: white;"></div>
 
-        <div>
-            <div class="side-margins">
-                <!-- PROTOTYPING -->
-            <h3 id="prototype">Prototyping</h3>
-            <hr>
-            </div>
-        </div>
+        <div class="side-margins">
+            <!-- PROTOTYPING -->
+            <h2 id="prototype" class="center anchored">Prototype</h2>
 
-        <div style="background-color: aqua;">
-            <div class="pad-top"></div>
-            <div class="side-margins">
-            <br>
-            <!-- HI-FI -->
-            <h4>Hi-Fi Model</h4>
+            <!-- SPACERS -->
+            <div class="small-pad"></div>
+            <!-- SPACERS -->
+
+            <!-- COLOR PALETTE -->
+            <h6>Color Palette</h6>
             <br>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="images/barnvagn/hifi1 gif.gif" class="card-img-top border-radius-40 border-width-5">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="card" style="border-color: black;">
+                        <div class="card-body border-radius-10" style="background-color: #ffffff;">
+                            <p class="center margin-delete">#FFFFFF</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="images/barnvagn/hifi2 gif.gif" class="card-img-top border-radius-40 border-width-5">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="card" style="border-color: black;">
+                        <div class="card-body border-radius-10" style="background-color: #FFFDE8;">
+                            <p class="center margin-delete">#FFFDE8</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="images/barnvagn/hifi3 gif.gif" class="card-img-top border-radius-40 border-width-5">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="card border-delete">
+                        <div class="card-body border-radius-10" style="background-color: #AAAAAA;">
+                            <p class="center white-text margin-delete">#AAAAAA</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="images/barnvagn/hifi4 gif.gif" class="card-img-top border-radius-40 border-width-5">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="card border-delete">
+                        <div class="card-body border-radius-10" style="background-color: #8675EF;">
+                            <p class="center white-text margin-delete">#8675EF</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="card border-delete">
+                        <div class="card-body border-radius-10" style="background-color: #BEADFA;">
+                            <p class="center white-text margin-delete">#BEADFA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SPACERS -->
+            <div class="pad-top"></div>
+            <!-- SPACERS -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <h6>Design Choices</h6>
+                </div>
+                <div class="col-lg-8">
+                    <p>I chose the colors dark purple and beige because they strongly contrast each other and is gender neutral color. All the controls of the stroller can be accessed in one page.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pad-bottom" style="background-color: white;"></div>
+
+
+        <div style="background-color: #BEADFA;">
+            
+
+            <div class="pad-top"></div>
+            <!-- SPACER -->
+            <div class="side-margins">
+            <!-- SPACER -->
+            <br>
+            <!-- HI-FI -->
+            <h4 class="white-text">Hi-Fi Design</h4>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <img src="images/barnvagn/hifi1 gif.gif" class="card-img-top border-radius-40 border-width-5 white-border">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <img src="images/barnvagn/hifi4 gif.gif" class="card-img-top border-radius-40 border-width-5 white-border">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <img src="images/barnvagn/hifi2 gif.gif" class="card-img-top border-radius-40 border-width-5 white-border">
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 col-sm-6">
+                    <img src="images/barnvagn/hifi3 gif.gif" class="card-img-top border-radius-40 border-width-5 white-border">
+                </div> -->
             </div>
             </div>
         </div>
 
-            <div class="pad-top" style="background-color: aqua;"></div>
-            <div class="pad-bottom"></div>
+        <div class="pad-top" style="background-color: #BEADFA;"></div>
+        <div class="pad-bottom" style="background-color: #BEADFA;"></div>
 
+
+        <!-- WEB DEVELOPMENT -->
+        <div style="background-color: #8675EF;">
+            
+            <div class="side-margins white-text">
+                <h2 id="web-dev" class="anchored centered center">Web Development</h2>
+                <!-- SPACERS -->
+                <div class="pad-top"></div>
+                <!-- SPACERS -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-7">
+                        <embed class="center border-radius-40 black-shadow" src="https://htluongucsd.github.io/barnvagn/" style="width:100%; height: 100vh; overflow: hidden ; border-color: rgb(206, 206, 206); border-width: 15px; border-style: solid;">
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
+                    <div class="col-lg-5 col-lg-4">
+                        <h6>I built the home page using HTML/CSS, JavaScript, and BootStrap 5's framework.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+        
+
+
+
+
+        <div class="pad-top" style="background-color: #8675EF;"></div>
+        <div class="pad-bottom"></div>
 
         <div style="background-color: rgb(255, 255, 255);">
-            <div class="side-margins">
-            <!-- COLOR PALETTE -->
-            <h4>Color Palette</h4>
-            <br>
-            <img src="images/barnvagn/color.png" style="width: 100%; max-width: 700px;">
-
-            <br><br><br><br>
-            
-            <!-- DESIGN DECISIONS -->
-            <h4>Design Decisions</h4>
-            <br>
-            <h6>Color:</h6>
-                <p>I chose the colors dark purple and beige because they strongly contrast each other. Additionally, purple is a gender neutral color, applicable to both baby boys and girls.</p>
-            <h6>Repetition:</h6>
-                <p>All text colors are white, and the card layout are consistent with one another.</p>
-            <h6>Proximity:</h6>
-                <p>Individual controls of the strollers are grouped by their own respective cards.</p>
-            <h6>Alignment:</h6>
-                <p>Contents that can be appropriately aligned to the left are left aligned, to emphasize the line of alignment which enhances readability.</p>
-            <h6>Overlay for disconnect action</h6>
-                <p>Helps minimize disconnect error by requesting for confirmation.</p>
-            <h6>Simplified home page with all controls located in one place:</h6>
-                <p>Improves the accessibility of the stroller controls.</p>
-            <h6>Labels on control cards:</h6>
-                <p>Signify function of controls.</p>
-            <h6>Use of world knowledge for lock:</h6>
-                <p>Lock color is red, unlock color is green. Helps the user easily identify the state of the lock.</p>
-            <br><br>
-
-            <div class="pad-top" style=""></div>
-            <div class="pad-bottom"></div>
+            <div class="side-margins">                        
 
             <!-- INTERACTION ANALYSIS -->
             <h4>Interaction Analysis</h4>
@@ -362,7 +540,7 @@
         <div>
             <div class="side-margins">
                 <!-- TESTING -->
-            <h3 id="test">Testing</h3>
+            <h2 id="test" class="anchored centered">Testing</h2>
             <hr>
             <p>To test my prototype, I utilized usability testing by developing 5 tasks for the user to try and complete using the prototype. Afterwards, I will prompt the user a quick survey in order to gain more insight about their user experience. I critiqued my design based on Shneiderman's 8 Golden Rule.</p>
             <br>
@@ -442,15 +620,13 @@
             <div class="sameline" id="footer1">
                 <h6>DESIGN FOR ALL</h6>
             </div>
-            <div class="sameline">
-                <a class="footer-text" href="mailto:htluong@ucsd.edu"><h6>email</h6></a>
-                <a class="footer-text" href="https://www.canva.com/design/DAFtc0dg7cI/jaJ8jJarflEt8GBODlducA/view?website#2" target="_blank"><h6>resume</h6></a>
-                <a class="footer-text" href="https://www.linkedin.com/in/hao-luong-446491237/" target="_blank"><h6>LinkedIn</h6></a>
-            </div>
             <div class="sameline" id="footer3">
                 <h6>@2023 Hao Luong</h6>
             </div>
         </div>
+        <!-- SPACERS -->
+        <div class="pad-top"></div>
+        <!-- SPACERS -->
       </section>
 
       <div>
