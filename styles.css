@@ -91,6 +91,11 @@ a {
     margin: 0px !important;
 }
 
+.padding-delete{
+    padding: 0;
+}
+
+
 @media screen and (max-width: 1200px) {
     .side-margins {
         margin-left: 10%;
@@ -182,8 +187,24 @@ hr {
     box-shadow: 4px 4px 15px rgb(226, 226, 226), -4px -4px 15px rgb(226, 226, 226) !important;
 }
 
+.grey-shadow {
+    box-shadow: 4px 4px 15px rgb(143, 143, 143) !important;
+}
+
+.black-shadow {
+    box-shadow: 4px 4px 15px rgb(0, 0, 0) !important;
+}
+
 .white {
     background-color: white;
+}
+
+.white-text{
+    color: white;
+}
+
+.white-border{
+    border-color: white !important;
 }
 
 #top_button {
@@ -230,7 +251,7 @@ hr {
     display: block;
     position: relative;
     width: 0;
-    height: 150px;
+    height: 100px;
     margin-top: -100px;
 }
 
@@ -239,7 +260,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
 }
 
 #design-process{
@@ -263,6 +283,10 @@ hr {
     padding-top: 150px;
 }
 
+.small-pad {
+    padding-top: 50px;
+}
+
 .full-page{
     height: 100vh;
 }
@@ -271,12 +295,13 @@ hr {
     font-size: 5rem !important;
 }
 
-.white-text{
-    color: white;
+/* next button */
+.next-back-button {
+    font-size: 3rem;
 }
 
 .carousel-control-next {
-    color: #0d6efd;
+    color: grey;
     opacity: 100;
 }
 
@@ -286,7 +311,7 @@ hr {
 } 
 
 .carousel-control-next:focus {
-    color: #0d6efd;
+    color: grey;
      opacity: 100;
 } 
 
@@ -295,7 +320,46 @@ hr {
      opacity: 100;
 } 
 
+/* previus button */
+.carousel-control-prev {
+    color: grey;
+    opacity: 100;
+}
 
+.carousel-control-prev:hover {
+    color: #0b58cd;
+    background-color: white;
+} 
+
+.carousel-control-prevnext:focus {
+    color: grey;
+     opacity: 100;
+} 
+
+.carousel-control-prev:active {
+    color: #0b58cd;
+     opacity: 100;
+} 
+
+.grey-text {
+    color: grey;
+}
+
+#brand-logo {
+    width: 70px;
+    float: none;
+    background-color: white;
+    box-shadow: 8px 8px 30px rgb(226, 226, 226);
+    z-index: 5;
+    top: 1%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brand-logo:hover {
+    content: url('images/project photos/yosemite white.png');
+}
 /* ------------------------------------------- */
 
 /* navbar */
@@ -308,19 +372,24 @@ hr {
     padding-right: 0px !important;
 }
 
+#navigation-bar{
+    transition: top .8s;
+}
+
 .navbar {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
     background-color: white !important;
     box-shadow: 8px 8px 30px rgb(226, 226, 226);
-    top: 3%;
+    top: 2%;
     width: 60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: fixed;
 }
 
 .navbar-brand {
@@ -336,7 +405,18 @@ hr {
     font-size: 1.5rem;
     font-weight: 500;
     color: rgb(141, 141, 141);
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 0;
+    padding-bottom: 0;
 }
+
+/* old nav link */
+/* .nav-link{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(141, 141, 141);
+} */
 
 .nav-link:hover {
     color: black;
