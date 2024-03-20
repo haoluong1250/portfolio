@@ -8,6 +8,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Fredoka', sans-serif;
 font-family: 'Quicksand', sans-serif;
  */
+
+ /* COLOR
+#9DB2BF
+#DDE6ED
+ */
  
  /* ------------------------------------------- */
 
@@ -87,6 +92,10 @@ a {
     padding-left: 0;
 }
 
+.bottom-padding-delete {
+    padding-bottom: 0;
+}
+
 .margin-delete{
     margin: 0px !important;
 }
@@ -119,6 +128,11 @@ a {
     margin-right: auto;
 }
 
+.background-center {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .border-delete {
     border: 0;
 }
@@ -133,7 +147,7 @@ a {
 
 #heading {
     font-size: 10rem !important;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 #hero-heading{
@@ -147,15 +161,15 @@ a {
 
 #view_prototype:hover {
     font-size: 1.8rem;
-    color: #0b58cd;
+    color: #F1B4BB;
 }
 
 button {
-    background-color: #0d6efd;
+    background-color: #1F4172;
 }
 
 button:hover {
-    background-color: #0b58cd;
+    background-color: #F1B4BB;
 }
 
 #process_button {
@@ -183,8 +197,12 @@ hr {
     opacity: 100;
 }
 
+.blue-shadow {
+    box-shadow: 4px 4px 15px #1F4172 !important;
+}
+
 .shadow {
-    box-shadow: 4px 4px 15px rgb(226, 226, 226), -4px -4px 15px rgb(226, 226, 226) !important;
+    box-shadow: 4px 4px 15px rgb(226, 226, 226) !important;
 }
 
 .grey-shadow {
@@ -203,35 +221,72 @@ hr {
     color: white;
 }
 
+.black {
+    background-color: black;
+}
+
+.black-text {
+    color: black;
+}
+
+.primary-color{
+    color: #1F4172 !important;
+}
+
+.background-primary-color{
+    background-color: #1F4172 !important;
+}
+
+.accent-color{
+    color: #F1B4BB !important;
+}
+
+.background-accent-color{
+    background-color: #F1B4BB !important;
+}
+
+.secondary-color{
+    color: #DDE6ED !important;
+}
+
+.background-secondary-color{
+    background-color: #DDE6ED !important;
+}
+
 .white-border{
     border-color: white !important;
+}
+
+#color-hex {
+    font-size: 1rem;
 }
 
 #top_button {
     position: fixed;
     bottom: 20px;
     right: 30px;
-    z-index: 0;
-    font-size: 18px;
+    z-index: 10;
     border: none;
-    outline: none;
     opacity: 100%;
-    color: #0d6efd;
+    background-color: #1F4172;
     cursor: pointer;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-top: 14px;
+    padding-bottom: 13px;
     border-radius: 100px;
+    border-width: 2px;
+    border-color: #DDE6ED;
+    color: #DDE6ED;
 }
 
 #top_button:hover {
-    background-color: #0b58cd;
+    background-color: #F1B4BB;
 }
 
-.carousel-control-prev:hover{
-    background-color: rgba(184, 184, 184, 0.6);
-}
-
-.carousel-control-next:hover{
-    background-color: rgba(184, 184, 184, 0.6);
+#chevron-up {
+    font-size: 2rem;
+    width: 30px;
 }
 
 .border-width-5{
@@ -260,6 +315,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: auto;
 }
 
 #design-process{
@@ -268,7 +324,7 @@ hr {
     padding: 1.5%;
     float: none;
     position: fixed;
-    top: 93%;
+    top: 94%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 8px 8px 30px rgb(226, 226, 226);
@@ -295,61 +351,77 @@ hr {
     font-size: 5rem !important;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* next button */
 .next-back-button {
     font-size: 3rem;
 }
 
 .carousel-control-next {
-    color: grey;
+    color: #1F4172;
     opacity: 100;
 }
 
 .carousel-control-next:hover {
-    color: #0b58cd;
-    background-color: white;
+    color: #F1B4BB;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 100;
+
 } 
 
 .carousel-control-next:focus {
-    color: grey;
-     opacity: 100;
+    color: #1F4172;
+    opacity: 100;
 } 
 
 .carousel-control-next:active {
-    color: #0b58cd;
+    color: #F1B4BB;
      opacity: 100;
 } 
 
 /* previus button */
 .carousel-control-prev {
-    color: grey;
+    color: #1F4172;
     opacity: 100;
 }
 
 .carousel-control-prev:hover {
-    color: #0b58cd;
-    background-color: white;
+    color: #F1B4BB;
+    background-color: rgba(255, 255, 255, 0);
 } 
 
 .carousel-control-prevnext:focus {
-    color: grey;
+    color: #1F4172;
      opacity: 100;
 } 
 
 .carousel-control-prev:active {
-    color: #0b58cd;
+    color: #F1B4BB;
      opacity: 100;
 } 
 
 .grey-text {
-    color: grey;
+    color: #1F4172;
+}
+
+#left-card-padding {
+    padding-right: 20px; 
+    padding-bottom: 12px;
+}
+
+#right-card-padding {
+    padding-left: 20px;
+    padding-bottom: 12px;
 }
 
 #brand-logo {
-    width: 70px;
+    width: 55px;
     float: none;
     background-color: white;
-    box-shadow: 8px 8px 30px rgb(226, 226, 226);
+    /* box-shadow: 8px 8px 30px rgb(226, 226, 226); */
     z-index: 5;
     top: 1%;
     text-align: center;
@@ -358,7 +430,7 @@ hr {
 }
 
 #brand-logo:hover {
-    content: url('images/project photos/yosemite white.png');
+    content: url('images/project photos/H\ \(pink\).png');
 }
 /* ------------------------------------------- */
 
@@ -380,9 +452,9 @@ hr {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    background-color: white !important;
-    box-shadow: 8px 8px 30px rgb(226, 226, 226);
-    top: 2%;
+    background-color: #1F4172 !important;
+    /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.75); */
+    top: 1%;
     width: 60%;
     text-align: center;
     margin-left: auto;
@@ -392,19 +464,10 @@ hr {
     position: fixed;
 }
 
-.navbar-brand {
-    font-weight: 500;
-    font-size: 2.5rem;
-}
-
-.navbar-brand:hover {
-    color: red;
-}
-
 .nav-link{
     font-size: 1.5rem;
     font-weight: 500;
-    color: rgb(141, 141, 141);
+    color: #DDE6ED;
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 0;
@@ -419,7 +482,7 @@ hr {
 } */
 
 .nav-link:hover {
-    color: black;
+    color: #F1B4BB;
 }
 
 /* ------------------------------------------- */
@@ -427,14 +490,13 @@ hr {
 /* landing */
 .landingtext {
     height: 100vh;
-    padding-top: 40%;
-    font-size: 2.5rem;
+    padding-top: 38%;
+    font-size: 1.75rem;
     font-weight: 300;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 900px) {
@@ -450,21 +512,27 @@ hr {
     margin-bottom: 5%;
 }
 
+.card-body {
+    padding-bottom: 1%;
+}
+
 #project_card {
     border-width: 0px;
-    box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226);
+    /* box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226); */
 }
 
 #project_card:hover {
     border-width: 0px;
-    box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226);
-    width: 102%;
+    /* box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226); */
+    width: 98%;
 }
 
 #project_name {
-    font-size: 3rem !important;
+    font-size: 1.75rem !important;
     text-decoration: none;
-    color: black;
+    font-weight: 500;
+    color: #1F4172;
+    margin-right: 10px;
 }
 
 /* ------------------------------------------- */
@@ -472,17 +540,17 @@ hr {
 /* footer */
 #footer {
     text-align: center;
-    font-size: 1.5rem !important;
+    color: #1F4172;
 }
 
 #footer1 {
     position: absolute;
-    left: 10%;
+    left: 20%;
 }
 
 #footer3 {
     position: absolute;
-    right: 10%;    
+    right: 20%;    
 }
 
 /* MOBILE */
@@ -553,6 +621,18 @@ hr {
 
     .data{
         font-size: 3rem !important;
+    }
+
+    #left-card-padding {
+        padding-right: 0px; 
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+    
+    #right-card-padding {
+        padding-right: 0px;
+        padding-left: 0px; 
+        padding-bottom: 10px;
     }
 }
 
