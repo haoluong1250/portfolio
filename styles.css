@@ -489,6 +489,11 @@ hr {
     background-color: #DDE6ED !important;
 }
 
+#pfp {
+    margin-left: 32.4px;
+    margin-bottom: 50px;
+}
+
 /* ------------------------------------------- */
 
 /* landing */
@@ -538,6 +543,7 @@ hr {
     color: #1F4172;
     margin-right: 10px;
 }
+
 
 /* ------------------------------------------- */
 
@@ -688,6 +694,15 @@ hr {
         margin-left: 30px;
         margin-right: 30px;
         width: 80% !important;
+    }
+
+    #pfp {
+        margin-left: 0px !important;
+        margin-bottom: 50px;
+    }
+
+    #email {
+        font-size: 1.5rem !important;
     }
 
     /* footer */
