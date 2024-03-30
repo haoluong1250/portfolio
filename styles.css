@@ -119,6 +119,9 @@ a {
 
 .right {
     text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center {
@@ -353,6 +356,16 @@ hr {
 
 .bold {
     font-weight: bold;
+}
+
+#next-project{
+    text-decoration: none;
+    color: #dde6edab;
+}
+
+#next-project:hover{
+    text-decoration: none;
+    color: white;
 }
 
 /* next button */
