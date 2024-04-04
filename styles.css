@@ -445,6 +445,15 @@ hr {
 #brand-logo:hover {
     content: url('images/project photos/H\ \(pink\).png');
 }
+
+#get-in-touch:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+#footeritems:hover {
+    color: #F1B4BB !important;
+}
 /* ------------------------------------------- */
 
 /* navbar */
@@ -453,8 +462,14 @@ hr {
     padding-right: 0;
 }
 
-.email {
-    padding-right: 0px !important;
+#email {
+    color: #DDE6ED;
+    padding-right: 0px !important;    
+}
+
+#email:hover {
+    color: #F1B4BB !important;
+    text-decoration: underline !important;
 }
 
 #navigation-bar{
