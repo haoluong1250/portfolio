@@ -216,6 +216,10 @@ hr {
     box-shadow: 4px 4px 15px rgb(0, 0, 0) !important;
 }
 
+.red-shadow {
+    box-shadow: 4px 4px 15px rgb(255, 0, 0) !important;
+}
+
 .white {
     background-color: white;
 }
