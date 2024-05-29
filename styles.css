@@ -260,6 +260,10 @@ hr {
     background-color: #DDE6ED !important;
 }
 
+.background-black {
+    background-color: black !important;
+}
+
 .white-border{
     border-color: white !important;
 }
@@ -430,7 +434,7 @@ hr {
 }
 
 #right-card-padding {
-    padding-left: 20px;
+    padding-left: 40px;
     padding-bottom: 12px;
 }
 
@@ -562,20 +566,51 @@ hr {
     /* box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226); */
 }
 
-#project_card:hover {
+/* #project_card:hover {
     border-width: 0px;
-    /* box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226); */
     width: 98%;
-}
+    /* box-shadow: 8px 8px 15px rgb(226, 226, 226), -8px -8px 15px rgb(226, 226, 226); */
+} */
 
-#project_name {
-    font-size: 1.75rem !important;
-    text-decoration: none;
-    font-weight: 500;
-    color: #1F4172;
-    margin-right: 10px;
-}
-
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F1B4BB;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 /* ------------------------------------------- */
 
