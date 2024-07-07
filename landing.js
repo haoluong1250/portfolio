@@ -1,5 +1,5 @@
 const div = document.querySelector(".landingtext");
-const text = "I'm Hao: UX designer. Welcome to my portfolio (coded using HTML/CSS & JavaScript). Passionate for all things design, I am currently searching for new career opportunities."
+const text = "I'm Hao. Welcome to my portfolio, where I strive to design creative and intuitive experiences."
 
 function textTypingEffect(element, text, i = 0) {
     if (i === 0) {
