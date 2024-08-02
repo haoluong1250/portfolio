@@ -526,7 +526,7 @@ hr {
 .nav-link{
     font-size: 1.3rem;
     font-weight: 500;
-    color: #DDE6ED;
+    color: white;
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 0;
@@ -565,12 +565,23 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 @media screen and (max-width: 900px) {
     .landingtext {
         font-size: 1.75rem;
     }
+}
+
+#landing-hero {
+    background-color: #1F4172;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;
 }
 
 /* ------------------------------------------- */
